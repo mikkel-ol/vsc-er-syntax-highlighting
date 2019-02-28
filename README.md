@@ -1,4 +1,4 @@
-# Syntax Highlighting for .er files
+# Syntax highlighting for .er files
 
 *Soon™*
 
