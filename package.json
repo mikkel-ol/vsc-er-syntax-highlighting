@@ -1,0 +1,25 @@
+{
+    "name": "er-syntax-highlighting",
+    "displayName": "ER Syntax Highlighting",
+    "description": "Syntax highlighting for .er files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "er",
+            "aliases": ["Entity Relationship", "er"],
+            "extensions": [".er"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "er",
+            "scopeName": "source.er",
+            "path": "./syntaxes/er.tmLanguage.json"
+        }]
+    }
+}
