@@ -3,3 +3,6 @@
 
 # Photoshop files (icons)
 *.psd
+
+# vsce logs
+*.log.*
