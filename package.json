@@ -1,7 +1,9 @@
 {
     "name": "er-syntax-highlighting",
-    "displayName": "ER Syntax Highlighting",
-    "description": "Syntax highlighting for .er files",
+    "displayName": "ERD Syntax Highlighting",
+    "description": "Language support for ERD (.er) files",
+    "publisher": "mikkel-ol",
+    "icon": "icon.png",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.31.0"
