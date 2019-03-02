@@ -1,27 +1,36 @@
 {
-    "name": "er-syntax-highlighting",
-    "displayName": "ERD Syntax Highlighting",
-    "description": "Language support for ERD (.er) files",
-    "publisher": "mikkel-ol",
-    "icon": "icon.png",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.31.0"
-    },
-    "categories": [
-        "Programming Languages"
+  "name": "er-syntax-highlighting",
+  "displayName": "ERD Syntax Highlighting",
+  "description": "Language support for ERD (.er) files",
+  "publisher": "mikkel-ol",
+  "icon": "icon.png",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.31.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "er",
+        "aliases": [
+          "Entity Relationship",
+          "er"
+        ],
+        "extensions": [
+          ".er"
+        ],
+        "configuration": "./language-configuration.json"
+      }
     ],
-    "contributes": {
-        "languages": [{
-            "id": "er",
-            "aliases": ["Entity Relationship", "er"],
-            "extensions": [".er"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "er",
-            "scopeName": "source.er",
-            "path": "./syntaxes/er.tmLanguage.json"
-        }]
-    }
+    "grammars": [
+      {
+        "language": "er",
+        "scopeName": "source.er",
+        "path": "./syntaxes/er.tmLanguage.json"
+      }
+    ]
+  }
 }
