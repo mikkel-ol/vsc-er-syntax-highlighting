@@ -1,6 +1,6 @@
 # Syntax highlighting for ER Diagrams
 
-Syntax support in Visual Studio Code for Entity-Relationship Diagram files (.er files) with highlighting for entities, primary keys, comments and more.
+Syntax support in Visual Studio Code for Entity-Relationship Diagram files (.er files) with highlighting for entities, primary keys, comments and more. This has been designed and styled around [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) so stylings might appear different depending on theme.
 
 [Marketplace](https://marketplace.visualstudio.com/items?itemName=mikkel-ol.er-syntax-highlighting) \
 [GitHub](https://github.com/mikkel-ol/vsc-er-syntax-highlighting)
