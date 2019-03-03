@@ -6,3 +6,6 @@
 
 # vsce logs
 *.log.*
+
+# Test .er files
+*.er
