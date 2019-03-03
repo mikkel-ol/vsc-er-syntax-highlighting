@@ -7,5 +7,8 @@
 # vsce logs
 *.log.*
 
-# Test .er files
+# .er test files
 *.er
+
+# macOS
+.DS_Store
