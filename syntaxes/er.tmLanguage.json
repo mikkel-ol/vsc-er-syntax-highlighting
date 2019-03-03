@@ -19,12 +19,13 @@
 			]
 		},
 		"primaryKey": {
-			"patterns": [
-				{
-					"match": "^\\*.*",
-					"name": "punctuation.definition.italic.markdown"
-				}
-			]
+			"begin": "^\\s*\\*",
+			"end": "([^\\s]+)",
+			"name": "punctuation.definition.italic.markdown"
+		},
+		"relationship": {
+			"match": ".*[10\\*\\+]--[10\\*\\+]\\s*\\w+",
+			"name": "entity.name.function"
 		},
 		"string-double": {
 			"name": "string.quoted.double.er",
@@ -126,7 +127,6 @@
 				}
 			]
 		},
-
 		"value": {
 			"patterns": [
 				{
@@ -134,6 +134,9 @@
 				},
 				{
 					"include": "#entity"
+				},
+				{
+					"include": "#relationship"
 				},
 				{
 					"include": "#primaryKey"
