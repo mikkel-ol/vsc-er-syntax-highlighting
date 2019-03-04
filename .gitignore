@@ -7,8 +7,11 @@
 # vsce logs
 *.log.*
 
-# Test .er files
+# .er test files
 *.er
 
 # .. except example.er
 !example.er
+
+# macOS
+.DS_Store
