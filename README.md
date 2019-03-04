@@ -7,7 +7,7 @@ Syntax support in Visual Studio Code for Entity-Relationship Diagram files (.er 
 
 ## Preview
 
-*Insert image here*
+![Preview syntax highlight](/example.png?raw=true "Preview of syntax highlighting")
 
 ## Syntax
 
