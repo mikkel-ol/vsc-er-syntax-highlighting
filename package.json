@@ -4,7 +4,7 @@
 	"description": "Language support for ERD (.er) files",
 	"publisher": "mikkel-ol",
 	"icon": "icon.png",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"repository": "https://github.com/mikkel-ol/vsc-er-syntax-highlighting",
 	"engines": {
 		"vscode": "^1.31.0"
