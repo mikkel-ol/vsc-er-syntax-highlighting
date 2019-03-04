@@ -9,3 +9,6 @@
 
 # Test .er files
 *.er
+
+# .. except example.er
+!example.er
