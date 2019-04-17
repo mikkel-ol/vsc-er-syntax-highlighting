@@ -24,7 +24,7 @@
 			"name": "punctuation.definition.italic.markdown"
 		},
 		"relationship": {
-			"match": ".*[10\\*\\+]--[10\\*\\+]\\s*\\w+",
+			"match": ".+\\s([\\*\\+\\?]|[10](\\.\\.\\*)?)--([\\*\\+\\?]|(1(\\.\\.\\*)?)|(0(\\.\\.(1|\\*))?))\\s+\\w+",
 			"name": "entity.name.function"
 		},
 		"string-double": {
