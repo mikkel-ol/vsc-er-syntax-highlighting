@@ -24,7 +24,18 @@
 				"language": "er",
 				"scopeName": "source.er",
 				"path": "./syntaxes/er.tmLanguage.json"
+			},
+			{
+				"scopeName": "markdown.er.codeblock",
+				"path": "./syntaxes/codeblock.json",
+				"injectTo": [
+				  "text.html.markdown"
+				],
+				"embeddedLanguages": {
+				  "meta.embedded.block.er": "er"
+				}
 			}
-		]
+		],
+		"markdown.markdownItPlugins": true
 	}
 }
