@@ -53,9 +53,9 @@
 		]
 	},
 	"dependencies": {
-		"@types/vscode": "^1.41.0",
-		"erd": "^0.0.9",
-		"markdown-it": "^10.0.0",
-		"vscode": "^1.1.36"
+		"@types/puppeteer": "^2.0.0",
+		"erd": "0.0.9",
+		"fs": "0.0.1-security",
+		"puppeteer": "^2.0.0"
 	}
 }
