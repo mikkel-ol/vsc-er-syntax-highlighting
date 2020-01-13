@@ -10,11 +10,12 @@ let path = require("path");
  */
 function erdToHTML( erdCode ){
     erd({ modelsText: erdCode, outputType: "html"});
-    let vscodeRootDir = path.dirname(require.main.filename);
-    let svg = fs.readFileSync(path.join( vscodeRootDir, "../erd.html"), { encoding: 'utf8' })
-    return svg;
+    return fs.readFileSync("erd.html", { encoding: 'utf8' })
 }
 
+/**
+ * 
+ */
 module.exports.activate = () => {
     return {
         extendMarkdownIt(md) {
@@ -29,15 +30,3 @@ module.exports.activate = () => {
         }
     }
 }
-
-
-//import * as vscode from 'vscode';
-
-// export function activate(context: vscode.ExtensionContext) {
-//   return {
-//     extendMarkdownIt(md: any) {
-//       console.log("HIHIHIH");
-//       return md;
-//     }
-//   };
-// }
