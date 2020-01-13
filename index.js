@@ -14,7 +14,12 @@ function erdToHTML( erdCode ){
 }
 
 /**
+ * This function is called by the onLanguage activation event.
+ * When changes to er code in a markdown document are made, this function
+ * converts the updated er code to HTML using erdToHTML.
  * 
+ * @see https://code.visualstudio.com/api/references/activation-events
+ * @see https://vscode-eastus.azurewebsites.net/api/extension-guides/markdown-extension
  */
 module.exports.activate = () => {
     return {
