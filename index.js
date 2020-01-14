@@ -9,8 +9,15 @@ let path = require("path");
  * @returns The svg
  */
 function erdToHTML( erdCode ){
-    erd({ modelsText: erdCode, outputType: "html"});
-    return fs.readFileSync("erd.html", { encoding: 'utf8' })
+    try {
+        erd({ modelsText: erdCode, outputType: "html"});
+        return fs.readFileSync("erd.html", { encoding: 'utf8' })
+      }
+      catch(err) {
+        console.log("Error converting erd to html. " + err.message);
+        return fs.readFileSync( code );
+      }
+
 }
 
 /**
