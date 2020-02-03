@@ -15,4 +15,4 @@ This is based on the syntax used by [erd-go](https://github.com/kaishuu0123/erd-
 
 ## Markdown
 
-This extension also provides syntax highlighting and previewing of er code in markdown.
+This extension also provides syntax highlighting and previewing of ER code in Markdown.
