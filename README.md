@@ -12,3 +12,7 @@ Syntax support in Visual Studio Code for Entity-Relationship Diagram files (.er 
 ## Syntax
 
 This is based on the syntax used by [erd-go](https://github.com/kaishuu0123/erd-go/) but also supports cardinalities used by [erd](https://github.com/BurntSushi/erd) and [erdm](https://github.com/unok/erdm).
+
+## Markdown
+
+This extension also provides syntax highlighting and previewing of er code in markdown.
