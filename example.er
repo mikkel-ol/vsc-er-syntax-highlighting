@@ -28,16 +28,3 @@ country {label: "varchar, not null"}
 # 0 or more      *
 # 1 or more      +
 Person *--1 Location {label: "has"}
-
-
-
-
-
-
-
-
-
-
-
-
-
